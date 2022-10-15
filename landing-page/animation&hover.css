@@ -1,0 +1,46 @@
+
+nav ul li:hover {
+    background-image: linear-gradient(to left,#f2339e,#a44ac9);
+    transition: 0.7s;
+}
+.checkbtn:hover {
+    color:#f2339e;
+    transition: .5s;
+}
+
+.template-button:hover, .discover-button:hover {
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left,#f2339e,#a44ac9);
+    transition: 0.5s;
+}
+
+.basic-btn:hover {
+    background-image: linear-gradient(to right, red, blue);
+    transition: 0.5s;
+ }
+
+ .subscribe-btn:hover {
+    border-radius: 10px;
+    background-color: #ff0090;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-image: linear-gradient(to left, red, blue);
+    transition:  0.5s;
+}
+
+footer a:hover {
+    color: #ff0090;
+    transition: 0.5s;
+}
+
+.we:hover {
+    color: #344767;
+}
+
+.footer-bottom a:hover, .fa-brands:hover {
+    color: #ff0090;
+    transition: 0.5s;
+}

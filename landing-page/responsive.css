@@ -1,0 +1,207 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* nav  */
+   .checkbtn {
+    display: block;
+    margin-top: 0px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+   }
+    .nav-ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 70px;
+        left: -100%;
+        background-color: rgba(38, 0, 255, 0.866);
+        text-align: center;
+        display: block;
+        margin: 0px;
+        padding: 150px;
+        padding-top: 20px;
+        transition: all .5s;
+    }
+    .nav-ul li {
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .nav-ul li a{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    #check:checked ~ul {
+        left: 0;
+    }
+    #check:checked ~ .checkbtn  i::before {
+        content: "\f00d";
+    }
+    /*-------------------tab-heading */
+    .tab-heading {
+        font-size: 30px;
+    }
+    /* ---------------dishkit-section */
+    .dishkit-section {
+        display: block;
+    }
+    .bootstrap-img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .dishkit-heading {
+        font-size: 25px;
+    }
+    .Explore h3, .bootstrap h3 {
+        font-size: 16px;
+    }
+    /* .form-section */
+    .form-section {
+        display: block;
+        margin: 10px 40px;
+    }
+    .form-img {
+        width: 400px;
+    }
+    .form-input:not(.submit) {
+        padding: 0px;
+        width: 400px;
+    }
+    .submit {
+        padding: 10px 150px;
+    }
+    .form-headign {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .fomr-text-section ul {
+        display: block;
+        line-height: 50px
+    }
+    .form-input:not(.submit) {
+        padding: 10px;
+    }
+    .template-seciton {
+        display: block;
+        padding: 20px;
+    }
+    .template-heading {
+        font-size: 35px;
+        line-height: 35px;
+        margin: 0px;
+        padding: 20px 0px 20px 0px;
+    }
+    .template-button {
+        padding: 10px 20px;
+    }
+    /* anilytic-setion */
+    .analytic-section {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    .analytic-heading{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .analytic-text {
+        margin: 25px;
+    }
+    .responsiv, .support {
+        width: 400px;
+    }
+    .discover-button {
+        padding: 10px;
+    }
+    .girl-img {
+        width: 425px;
+        margin: 20px;
+        margin-right: 10px;
+    }
+    /* .countdown-timer */
+    .countdown-timer {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        padding: 10px;
+    }
+    .countdown-discription {
+        width: 400px;
+    }
+
+    .coded, .design  {
+        border: none;
+    }
+    /* .features-heading */
+    .features-heading {
+        font-size: 35px;
+    }
+
+    .build-section {
+        display: block;
+    }
+    .slider-heading {
+        font-size: 25px;
+    }
+      /* -----------------packeg */
+      .packeg {
+        display: block;
+        margin: 40px;
+    }
+    .packeg-heading {
+        font-size: 30px;
+    }
+    .basic, .standart, .premium  {
+        width: 400px;
+    }
+      /* ----------------subscribe--------------- */
+      .subscribe-heading {
+        font-size: 35px;
+    }
+    .subscribe-description  {
+      width: 300px;
+      margin-left: 100px;
+    }
+    .subscribe-eamil  {
+        display: block;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    .check {
+        margin: 20px 0px;
+        margin-left: 20px;
+    }
+    /* footer */
+        footer {
+            display: block;
+            margin-left: 10px;
+        }
+        footer h3 {
+            color: #11141a;
+        }
+        .footer-bottom {
+            display: block;
+            text-align: center;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
